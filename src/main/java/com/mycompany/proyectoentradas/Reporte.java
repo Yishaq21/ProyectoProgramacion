@@ -5,6 +5,10 @@
 package com.mycompany.proyectoentradas;
 
 import javax.swing.JOptionPane;
+/**
+ *
+ * @author julian
+ */
 
 public class Reporte {
     
