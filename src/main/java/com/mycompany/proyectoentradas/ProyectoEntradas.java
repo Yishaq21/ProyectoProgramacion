@@ -20,6 +20,9 @@ public class ProyectoEntradas {
         menu.peliculas[menu.contadorPeliculas++] = 
                 new Pelicula("Avatar", "Acción", 150, "Cartelera");
         
+        menu.peliculas[menu.contadorPeliculas++] = 
+                new Pelicula("Una pelicula de Minecraft", "Animada", 101, "Cartelera");
+        
         menu.peliculas[menu.contadorPeliculas++] =
                 new Pelicula("Noche de paz, noche de horror", "Terror", 120, "Proximo");
         
@@ -28,6 +31,9 @@ public class ProyectoEntradas {
         
         menu.peliculas[menu.contadorPeliculas++] =
                 new Pelicula("Guerra Oculta", "Suspenso", 100, "Proximo");
+        
+        menu.peliculas[menu.contadorPeliculas++] = 
+                new Pelicula("Pixeles", "Comedia", 106, "Cartelera");
 
         // Se llama al menú principal para que el programa empiece 
         menu.mostrarMenuPrincipal();
