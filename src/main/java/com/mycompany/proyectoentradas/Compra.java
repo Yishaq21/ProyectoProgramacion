@@ -52,7 +52,6 @@ public class Compra {
     }
 
     // Representacion de la compra
-    @Override
     public String toString() {
         return "Cliente: " + cliente.getNombre() +
                " | Película: " + pelicula.getTitulo() +
