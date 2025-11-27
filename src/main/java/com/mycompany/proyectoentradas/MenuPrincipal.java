@@ -131,12 +131,23 @@ public class MenuPrincipal {
         } while (opcion != 3); // Sale del submenu
     }
 
-    private void submenuReportes() { // SubMenu de Reportes, Se muestra estadisticas como total de ventas, pelicula mas vendida y cliente con mas compras
+    // ejemplo: capacidad para 50 compras
+    private Compra[] compras = new Compra[50]; 
+       // contador de compras realizadas
+    private int contadorCompras = 0;           
+
+    private void submenuReportes() {
         int opcion;
+        Reporte reporte = new Reporte(compras, contadorCompras);
 
         do {
-             String[] opciones = {
-                "Total entradas vendidas", "Película más vendida", "Cliente con más compras", "Salir"};
+            String[] opciones = {
+                "Total entradas vendidas", 
+                "Película más vendida", 
+                "Cliente con más compras", 
+                "Mostrar compras", 
+                "Salir"
+            };
             opcion = JOptionPane.showOptionDialog(null,
                     "Seleccione una opcion:", "Reportes",
                     JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE,
@@ -145,17 +156,21 @@ public class MenuPrincipal {
 
             switch (opcion) {
                 case 0:
-                    // totalVendidas();
+                    reporte.totalEntradasVendidas();
                     break;
                 case 1:
-                    // peliculaMasVendida();
+                    reporte.peliculaMasVendida();
                     break;
                 case 2:
-                    // clienteMasCompras();
+                    reporte.clienteMasCompras();
+                    break;
+                case 3:
+                    reporte.mostrarCompras();
                     break;
             }
-        } while (opcion != 3); // Sale del submenu
-    }
+            // Sale del submenu
+    } while (opcion != 4); 
+}
 }
     
     

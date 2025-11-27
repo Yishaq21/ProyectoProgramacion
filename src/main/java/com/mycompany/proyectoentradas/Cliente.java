@@ -27,4 +27,8 @@ public class Cliente {
         System.out.println("Correo: " + correo);        // Muestra el correo
         System.out.println("Compras realizadas: " + compras); // Muestra cuántas compras lleva
     }
+
+    String getNombre() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
