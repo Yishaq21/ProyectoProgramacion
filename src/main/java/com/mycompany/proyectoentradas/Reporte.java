@@ -104,7 +104,7 @@ public class Reporte {
         }
         return total;
     }
-
+//    Compras por cliente
     private int contarComprasPorCliente(Cliente cliente) {
         int total = 0;
         for (int i = 0; i < contadorCompras; i++) {

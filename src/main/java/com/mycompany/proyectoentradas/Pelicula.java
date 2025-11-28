@@ -30,6 +30,10 @@ public class Pelicula {
         System.out.println("Duración: " + duracion + " minutos"); // Muestra duración
         System.out.println("Estado: " + estado);       // Muestra si está en cartelera o es próximo estreno
     }
+
+    String getTitulo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
    
 }
 
