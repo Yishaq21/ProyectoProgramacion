@@ -6,10 +6,9 @@ package com.mycompany.proyectoentradas;
 
 /**
  *
- * @author julian
+ * @author pao
  */
-
-public class Compra {
+public class Compraa {
     
      // Cliente que realiza la compra
     private Cliente cliente; 
@@ -19,7 +18,7 @@ public class Compra {
     private int cantidadEntradas;     
 
     // Constructor
-    public Compra(Cliente cliente, Pelicula pelicula, int cantidadEntradas) {
+    public Compraa (Cliente cliente, Pelicula pelicula, int cantidadEntradas) {
         this.cliente = cliente;
         this.pelicula = pelicula;
         this.cantidadEntradas = cantidadEntradas;
@@ -58,4 +57,4 @@ public class Compra {
                " | Entradas: " + cantidadEntradas;
     }
 }
-
+    

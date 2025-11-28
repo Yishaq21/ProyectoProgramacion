@@ -13,12 +13,12 @@ import javax.swing.JOptionPane;
 public class Reporte {
     
 // Arreglo de compras realizadas
-    private Compra[] compras;   
+    private Compraa[] compras;   
 // Número de compras registradas    
     private int contadorCompras;    
 
 // Recibe el arreglo de compras y el contador
-    public Reporte(Compra[] compras, int contadorCompras) {
+    public Reporte(Compraa[] compras, int contadorCompras) {
         this.compras = compras;
         this.contadorCompras = contadorCompras;
     }

@@ -132,7 +132,7 @@ public class MenuPrincipal {
     }
 
     // ejemplo: capacidad para 50 compras
-    private Compra[] compras = new Compra[50]; 
+    private Compraa[] compras = new Compraa[50]; 
        // contador de compras realizadas
     private int contadorCompras = 0;           
 
