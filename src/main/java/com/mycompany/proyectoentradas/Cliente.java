@@ -28,4 +28,25 @@ public class Cliente {
         System.out.println("Compras realizadas: " + compras); // Muestra cuántas compras lleva
     }
 
+    // Para nombre
+    public String getNombre() {
+        return nombre;
+    }
+
+    // Para correo
+    public String getCorreo() {
+        return correo;
+    }
+
+    // Para compras
+    public int getCompras() {
+        return compras;
+    }
+
+    // Método para registrar una compra
+    public void registrarCompra() {
+        compras++;
+    }
+
+
 }
